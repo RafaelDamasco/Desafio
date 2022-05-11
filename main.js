@@ -10,7 +10,7 @@ const timer = setInterval(() => {
     c = 1
     contador.textContent = 1
   }
-}, 100)
+}, 1000)
 
 
 
