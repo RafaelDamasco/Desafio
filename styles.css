@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;  
+}
+
+.contador {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+  background-color: green;
+  overflow: hidden;
+}
+
+.box {
+  height: 5rem;
+  background-color: black;
+}
+
+h2 {
+  height: 5rem;
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  height: 15rem;
+  font-size: 9rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
