@@ -6,11 +6,11 @@ const timer = setInterval(() => {
   c ++
   contador.textContent ++
 
-  if (c === 99) {
+  if (c > 99) {
     c = 1
     contador.textContent = 1
   }
-}, 1000)
+}, 100)
 
 
 
